@@ -1,27 +1,37 @@
-# Slim Framework 3 Skeleton Application
+# Radio VaioVaio
 
-Use this skeleton application to quickly setup and start working on a new Slim Framework 3 application. This application uses the latest Slim 3 with the PHP-View template renderer. It also uses the Monolog logger.
+Aplicación que permite mostrar noticias sin tener que recargar la página, con el fin de la evaluación 2 de la asignatura Diseño de aplicaciones para Internet, instituto Profesional Duoc UC.
 
-This skeleton application was built for Composer. This makes setting up a new Slim Framework application quick and easy.
+### Pre-requisitos 📋
 
-## Install the Application
+Se requiere tener Composer, servicios(MySql) ,tener instalado Wamp o xampp
 
-Run this command from the directory in which you want to install your new Slim Framework application.
+### Instalación 🔧
 
-    php composer.phar create-project slim/slim-skeleton [my-app-name]
+1. Iniciar wampserver con todos sus servicios iniciados
+2. Montar la base de datos con el script llamado 'vaiovaioDB' adjuntado en el proyecto con MySql Workbench.
+3. Copiar el proyecto dentro de la carpeta 'C:\wamp64\www' 
+4. Abrir una ventana de comandos dentro de la carpeta.
+5. Ingresar el comando 'composer install'
+6. Para iniciar ingrese el comando 'composer start'
 
-Replace `[my-app-name]` with the desired directory name for your new application. You'll want to:
+## Ejecución ⚙️
 
-* Point your virtual host document root to your new application's `public/` directory.
-* Ensure `logs/` is web writeable.
+ Abrir un navegador e ingresar la ruta por ejemplo: 'localhost:8080/radio' 
 
-To run the application in development, you can run these commands 
+ ## Construido con 🛠️
 
-	cd [my-app-name]
-	php composer.phar start
+* Slim Framework
+* Atom
+* WampServer 64bits
+* MySql Workbench 8.0 ce
+* Composer
+* Medoo
+* Twig
+* Google Fonts
+* Font Awesome
+* Bootstrap
 
-Run this command in the application directory to run the test suite
+## Autores ✒️
 
-	php composer.phar test
-
-That's it! Now go build something cool.
+* **Jordan Escobar Soto** 
